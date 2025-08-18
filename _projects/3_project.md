@@ -1,11 +1,12 @@
----
+<!-- ---
 layout: page
-title: project 3 with very long name
+title: project 3 with very long long name
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: /assets/img/projects/solarpanelintegration.jpeg
+# redirect: https://unsplash.com
 importance: 3
-category: work
+# category: work
+display: false
 ---
 
 Every project has a beautiful feature showcase page.
@@ -78,4 +79,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->

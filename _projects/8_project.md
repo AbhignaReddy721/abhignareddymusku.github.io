@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: page
 title: project 8
 description: an other project with a background image and giscus comments
 img: assets/img/9.jpg
 importance: 2
-category: work
+# category: work
 giscus_comments: true
 ---
 
@@ -78,4 +78,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
