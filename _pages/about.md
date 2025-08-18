@@ -35,6 +35,6 @@ Hello! I'm Abhigna.
 I'm currently working as an Analytics Developer in the Health, Safety and Environmental Division at International Paper.
 
 I graduated with a Master's degree in Industrial Engineering specializing in Data Science and Analytics from Northeastern University, Boston, where I worked with Prof. Summer Xiao researching Large Language Model applications in Accounting. 
-Prior to that I pursued a Bachelor's Degree in Mechanical Engineering from BITS Pilani, Hyderabad in India.
+Prior to that I pursued a Bachelor's Degree in Mechanical Engineering from BITS Pilani, Hyderabad in India
 
 Outside work I enjoy practicing and teaching yoga, meditating, dancing and recently got into composting.
