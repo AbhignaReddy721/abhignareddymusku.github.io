@@ -9,16 +9,16 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-experience",
-          title: "Experience",
-          description: "Places that I worked at",
+  },{id: "nav-work-and-school",
+          title: "Work and School",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/experience/";
+            window.location.href = "/timeline/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -412,20 +412,30 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-moved-to-boston-for-grad-school",
+          title: 'Moved to Boston for grad school 🎓',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-had-a-fun-time-organizing-career-talks-and-skill-development-workshops-as-a-part-of-informs-chapter-at-northeastern-university",
+          title: 'Had a fun time organizing career talks and skill development workshops as a...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-started-my-co-op-in-the-ehs-amp-amp-s-division-at-tesla-in-austin",
+          title: 'Started my Co-op in the EHS&amp;amp;amp;S Division at Tesla in Austin.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-started-working-as-a-research-assistant-with-prof-summer-xiao-for-applications-of-llm-s-in-accounting",
+          title: 'Started working as a Research Assistant with Prof.Summer Xiao for applications of LLM’s...',
+          description: "",
+          section: "News",},{id: "news-mentored-graduate-students-at-northeastern-s-mie-co-op-mixer-sharing-guidance-on-navigating-co-op-search",
+          title: 'Mentored graduate students at Northeastern’s MIE Co-op Mixer, sharing guidance on navigating co-op...',
+          description: "",
+          section: "News",},{id: "news-graduated-with-a-master-s-degree-from-northeastern-university",
+          title: 'Graduated with a Master’s Degree from Northeastern University:',
+          description: "",
+          section: "News",},{id: "news-taught-my-first-yoga-class",
+          title: 'Taught my first yoga class!',
+          description: "",
+          section: "News",},{id: "projects-wiseblock-ai-productivity-app",
+          title: 'WiseBlock - AI Productivity App',
+          description: "AI-powered app to combat procrastination and digital distractions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
@@ -433,41 +443,11 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-dry-beans-multiclass-classification",
+          title: 'Dry Beans Multiclass Classification',
+          description: "ML models built from scratch to classify 7 types of dry beans based on physical characteristics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
