@@ -7,16 +7,11 @@ importance: 1
 category: work
 ---
 
-## The Problem We Solved
+## Problem we worked on
 
 This project came from a real problem I've noticed affecting me and a lot of my peers at school. Take a guess...
 
 It's PROCRASTINATION
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="/assets/img/projects/procrastination.jpeg" title="procrastination meme" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 Over time, I've come to accept it as a natural phenomenon and figured out strategies to deal with it. But here's the thing – we're living in an economy where tech companies invest heavily in capturing our attention. They understand our behavior patterns really well, which makes staying focused more challenging.
 

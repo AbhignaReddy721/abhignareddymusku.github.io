@@ -1,81 +1,52 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Dry Beans Multiclass Classification
+description: ML models built from scratch to classify 7 types of dry beans based on physical characteristics
 img: /assets/img/projects/drybeansclassification.png
-importance: 3
-category: work
-giscus_comments: true
+importance: 2
+# category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Built classification models from scratch to accurately identify and classify 7 types of dry beans based on their physical characteristics and properties. This project demonstrates deep understanding of machine learning fundamentals by implementing algorithms without using high-level libraries.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## The Challenge
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Dry beans are an important food source worldwide, and accurate classification is crucial for agricultural quality control and pricing. The goal was to develop models that could automatically classify beans based on features like shape, size, and other physical properties – all while implementing the algorithms from scratch to truly understand their mechanics.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Implementation
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Developed three classification algorithms completely from scratch without Scikit- Learn:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* **Logistic Regression** – Implemented multiclass classification using one-vs-all approach with gradient descent optimization
 
-{% raw %}
+* **Support Vector Machines (SVM)** – Built SVM classifier with kernel methods for non-linear decision boundaries
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+* **Neural Networks** – Created a fully-connected neural network with backpropagation for deep learning classification
 
-{% endraw %}
+## Dataset
+
+Used the [UC Irvine Machine Learning Repository's Dry Bean Dataset](https://archive-beta.ics.uci.edu/dataset/602/dry+bean+dataset) containing:
+- 13,611 samples of dry beans
+- 16 features (12 dimensional + 4 shape features)
+- 7 distinct classes of beans
+
+## My Contribution
+
+I took the lead on comprehensive technical documentation and analysis for this project. My work involved:
+
+- Created a comprehensive technical report explaining how all three models (Logistic Regression, SVM, and Neural Networks) work and their implementation details
+- Conducted comparative analysis across models, documenting accuracy metrics
+- Documented key findings from exploratory data analysis, including feature correlations and class imbalance issues
+- Provided strategic recommendations on model selection based on the accuracy-speed tradeoff analysis
+
+The report serves as a complete reference for understanding the project's approach and results.
+
+## Repository
+
+##### [🔗 View the code on GitHub]([link-to-github](https://github.com/abhignareddymusku/dry-beans-classification))
+
+## Documentation
+
+##### [📄 Read the full technical report](/assets/pdf/Projects/drybeansreport.pdf)
