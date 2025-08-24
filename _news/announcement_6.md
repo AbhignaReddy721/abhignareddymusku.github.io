@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated with a Master's Degree from [Northeastern University](/assets/img/news_images/grad.jpeg):
+Graduated with a Master's Degree in Industrial Engineering from [Northeastern University](/assets/img/news_images/grad.jpeg)

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Dry Beans Multiclass Classification
 description: ML models built from scratch to classify 7 types of dry beans based on physical characteristics
@@ -49,4 +49,4 @@ The report serves as a complete reference for understanding the project's approa
 
 ## Documentation
 
-##### [📄 Read the full technical report](/assets/pdf/Projects/drybeansreport.pdf)
+##### [📄 Read the full technical report](/assets/pdf/Projects/drybeansreport.pdf) -->

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -34,7 +34,7 @@ latest_posts:
 Hello! I'm Abhigna. 
 I'm currently working as an Analytics Developer in the Health, Safety and Environmental Division at International Paper.
 
-I graduated with a Master's degree in Industrial Engineering specializing in Data Science and Analytics from Northeastern University, Boston, where I worked with Prof. Summer Xiao researching Large Language Model applications in Accounting. 
-Prior to that I pursued a Bachelor's Degree in Mechanical Engineering from BITS Pilani, Hyderabad in India
+I graduated with a Master's degree in Industrial Engineering specializing in Data Science and Analytics from Northeastern University, Boston, where I worked with Prof. Summer Xiao on applications of Large Language Models in Accounting. 
+Prior to that I pursued a Bachelor's Degree in Mechanical Engineering from BITS Pilani, Hyderabad in India.
 
 Outside work I enjoy practicing and teaching yoga, meditating, dancing and recently got into composting.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my Co-op in the EHS&S Division at Tesla in [Austin](/assets/img/news_images/tesla.jpeg).
+Interned in the EHS&S Division at Tesla in [Austin](/assets/img/news_images/tesla.jpeg).

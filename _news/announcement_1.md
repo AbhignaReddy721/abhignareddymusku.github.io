@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Moved to Boston for grad school 🎓
+Started grad program in Industrial Engineering at Northeastern University, Boston 🎓

@@ -2,22 +2,15 @@
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
+      class="news-scroll-container"
+      style="max-height: 250px !important; overflow-y: auto !important; overflow-x: hidden !important;"
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
-        {% endif %}
-        {% for item in news limit: news_limit %}
+        {% for item in news %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td>
+            <th scope="row" style="width: 20%; padding: 0.5rem;">{{ item.date | date: '%b %d, %Y' }}</th>
+            <td style="padding: 0.5rem;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
@@ -32,3 +25,42 @@
     <p>No news so far...</p>
   {% endif %}
 </div>
+
+<style>
+  /* Container styling - height calculated for ~5 items */
+  .news-scroll-container {
+    max-height: 250px !important;  /* Approximately 50px per item × 5 items */
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+  }
+  
+  /* Ensure consistent row height */
+  .news-scroll-container table tr {
+    height: 50px;  /* Fixed height per row */
+  }
+  
+  /* Custom scrollbar styling */
+  .news-scroll-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .news-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  .news-scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  .news-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* For Firefox */
+  .news-scroll-container {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+</style>
