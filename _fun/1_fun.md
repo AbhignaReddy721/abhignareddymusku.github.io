@@ -18,4 +18,4 @@ I enjoy practicing yoga. It's my favorite form of exercise and adds balance to m
 
 Attached a pdf below with a set of exercises I usually work with. As I kept practicing more, I couldn't help but appreciate how beautifully and thoughtfully they were designed. The teacher I learnt it from compiled these into a file with pictures,( excuse the clarity, it was shot really long back ). I'm currently working on getting these into a video format.
 
-## [📄 PDF with exercises ](/assets/pdf/fun/YOGA BOOK.pdf)
+## [📄 PDF with exercises ](https://drive.google.com/file/d/1e4aWjo5AUPVkc0eIPF5OWP7rH5OkkpWj/view?usp=sharing)
