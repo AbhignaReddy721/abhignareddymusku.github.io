@@ -30,19 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resume/";
           },
-        },{id: "nav-blog",
-          title: "Blog",
+        },{id: "nav-fun",
+          title: "Fun",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-fun",
-          title: "Fun",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/fun/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -412,8 +405,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-grad-program-in-industrial-engineering-at-northeastern-university-boston",
-          title: 'Started grad program in Industrial Engineering at Northeastern University, Boston 🎓',
+            },},{id: "fun-yoga",
+          title: 'Yoga',
+          description: "",
+          section: "Fun",handler: () => {
+              window.location.href = "/fun/1_fun/";
+            },},{id: "fun-composting",
+          title: 'Composting',
+          description: "",
+          section: "Fun",handler: () => {
+              window.location.href = "/fun/2_fun/";
+            },},{id: "news-moved-to-boston-for-grad-school",
+          title: 'Moved to Boston for grad school 🎓',
           description: "",
           section: "News",},{id: "news-had-a-fun-time-organizing-career-talks-and-skill-development-workshops-as-a-part-of-informs-chapter-at-northeastern-university",
           title: 'Had a fun time organizing career talks and skill development workshops as a...',
