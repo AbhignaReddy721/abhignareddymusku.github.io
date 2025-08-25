@@ -34,7 +34,9 @@ latest_posts:
 Hello! I'm Abhigna. 
 I'm currently working as an Analytics Developer in the Health, Safety and Environmental Division at International Paper.
 
-I graduated with a Master's degree in Industrial Engineering specializing in Data Science and Analytics from Northeastern University, Boston, where I worked with Prof. Summer Xiao on applications of Large Language Models in Accounting. 
+I graduated with a Master's degree in Industrial Engineering specializing in Data Science and Analytics from Northeastern University, Boston, where I worked with Prof. Summer Xiao on applications of Large Language Models in Accounting.  
 Prior to that I pursued a Bachelor's Degree in Mechanical Engineering from BITS Pilani, Hyderabad in India.
 
-Outside work I enjoy practicing and teaching yoga, meditating, dancing and recently got into composting.
+Sustainability and AI are two areas where I'm currently interested to contribute. More specifically, I’m exploring the intersection of understanding how people are using AI in their day-to-day lives, it's societal impacts and policy implications and exploring how to build these tools that benefits everyone collectively.  
+
+I'm also curious into learning more about the capabilities and risks of these systems and finding ways to communicate these learnings.

@@ -34,19 +34,18 @@ Used the [UC Irvine Machine Learning Repository's Dry Bean Dataset](https://arch
 
 ## My Contribution
 
-I took the lead on comprehensive technical documentation and analysis for this project. My work involved:
+We worked on this project as a group of 3 as part of the Statistical Learning in Engineering course [ IE 7300 ]. I took the lead on comprehensive technical documentation and analysis. My work involved:
 
 - Created a comprehensive technical report explaining how all three models (Logistic Regression, SVM, and Neural Networks) work and their implementation details
-- Conducted comparative analysis across models, documenting accuracy metrics
 - Documented key findings from exploratory data analysis, including feature correlations and class imbalance issues
 - Provided strategic recommendations on model selection based on the accuracy-speed tradeoff analysis
 
 The report serves as a complete reference for understanding the project's approach and results.
 
-## Repository
-
-##### [🔗 View the code on GitHub]([link-to-github](https://github.com/abhignareddymusku/dry-beans-classification))
-
 ## Documentation
 
 ##### [📄 Read the full technical report](/assets/pdf/Projects/drybeansreport.pdf)
+
+## Repository
+
+##### [🔗 View the code on GitHub]([link-to-github](https://github.com/abhignareddymusku/dry-beans-classification))

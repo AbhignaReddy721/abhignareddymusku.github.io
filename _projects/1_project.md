@@ -12,6 +12,7 @@ category: work
 This project came from a real problem I've noticed affecting me and a lot of my peers at school. Take a guess...
 
 It's PROCRASTINATION
+![Procrastination illustration](/assets/img/projects/procrastination.png)
 
 Over time, I've come to accept it as a natural phenomenon and figured out strategies to deal with it. But here's the thing – we're living in an economy where tech companies invest heavily in capturing our attention. They understand our behavior patterns really well, which makes staying focused more challenging.
 
